@@ -1,41 +1,69 @@
-let timer;
-let isTimerRunning = false;
-let minutes = 25;
-let seconds = 0;
+// variables
 
-const timerDisplay = document.getElementById('timer-display');
-const startButton = document.getElementById('start-button');
-const resetButton = document.getElementById('reset-button');
+let workTittle = document.getElementById('work');
+let breakTittle = document.getElementById('break');
 
-function updateDisplay() {
-    timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+let workTime = 25;
+let breakTime = 5;
+
+let seconds = "00"
+
+// display
+window.onload = () => {
+    document.getElementById('minutes').innerHTML = workTime;
+    document.getElementById('seconds').innerHTML = seconds;
+
+    workTittle.classList.add('active');
 }
 
-function startTimer() {
-    if (!isTimerRunning) {
-        timer = setInterval(function() {
-            if (minutes === 0 && seconds === 0) {
-                clearInterval(timer);
-                isTimerRunning = false;
-            } else if (seconds === 0) {
-                minutes--;
-                seconds = 59;
-            } else {
-                seconds--;
+// start timer
+function start() {
+    // change button
+    document.getElementById('start').style.display = "none";
+    document.getElementById('reset').style.display = "block";
+
+    // change the time
+    seconds = 59;
+
+    let workMinutes = workTime - 1;
+    let breakMinutes = breakTime - 1;
+
+    breakCount = 0;
+
+    // countdown
+    let timerFunction = () => {
+        //change the display
+        document.getElementById('minutes').innerHTML = workMinutes;
+        document.getElementById('seconds').innerHTML = seconds;
+
+        // start
+        seconds = seconds - 1;
+
+        if(seconds === 0) {
+            workMinutes = workMinutes - 1;
+            if(workMinutes === -1 ){
+                if(breakCount % 2 === 0) {
+                    // start break
+                    workMinutes = breakMinutes;
+                    breakCount++
+
+                    // change the painel
+                    workTittle.classList.remove('active');
+                    breakTittle.classList.add('active');
+                }else {
+                    // continue work
+                    workMinutes = workTime;
+                    breakCount++
+
+                    // change the painel
+                    breakTittle.classList.remove('active');
+                    workTittle.classList.add('active');
+                }
             }
-            updateDisplay();
-        }, 1000);
-        isTimerRunning = true;
+            seconds = 59;
+        }
     }
-}
 
-function resetTimer() {
-    clearInterval(timer);
-    isTimerRunning = false;
-    minutes = 25;
-    seconds = 0;
-    updateDisplay();
+    // start countdown
+    setInterval(timerFunction, 1000); // 1000 = 1s
 }
-
-startButton.addEventListener('click', startTimer);
-resetButton.addEventListener('click', resetTimer);
