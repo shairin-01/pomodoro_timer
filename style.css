@@ -2,10 +2,10 @@
     font-size: 62.5%; /* 1rem = 10px */
 
     --color-primary: hsl(235, 35%, 19%);
-    --color-secondary: hsl(358, 78%, 69%);
+    --color-secondary: hsl(358, 94%, 40%);
     --color-font: hsla(0, 0%, 100%, 0.902);
 
-    --color-shadow: hsl(235, 36%, 35%);
+    --color-shadow: hsl(59, 96%, 48%);
 }
 
 * {
