@@ -5,7 +5,6 @@ let breakTittle = document.getElementById('break');
 
 let workTime = 25;
 let breakTime = 5;
-
 let seconds = "00"
 
 // display
