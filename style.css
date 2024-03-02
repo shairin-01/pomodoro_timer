@@ -5,7 +5,7 @@
     --color-secondary: hsl(0, 0%, 99%);
     --color-font: hsla(0, 0%, 3%, 0.902);
 
-    --color-shadow: hsl(152, 54%, 80%);
+    --color-shadow: hsl(0, 0%, 0%);
 }
 
 * {
