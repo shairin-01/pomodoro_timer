@@ -1,11 +1,11 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
 
-    --color-primary: hsl(333, 68%, 62%);
-    --color-secondary: hsl(358, 94%, 40%);
+    --color-primary: hsl(65, 84%, 51%);
+    --color-secondary: hsl(0, 0%, 99%);
     --color-font: hsla(0, 0%, 3%, 0.902);
 
-    --color-shadow: hsl(358, 75%, 68%);
+    --color-shadow: hsl(152, 54%, 80%);
 }
 
 * {
