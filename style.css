@@ -15,6 +15,7 @@
 }
 
 html, body {
+    background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.schcounselor.com%2F2021%2F01%2Ftake-what-you-need-give-what-you-can.html&psig=AOvVaw2hzHUOlH81rKyelmpa5g63&ust=1709476605354000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNjYlIbo1YQDFQAAAAAdAAAAABAZ);
     height: 100%;
     background-color: var(--color-primary);
     font-size: 1.6rem;
