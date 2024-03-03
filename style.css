@@ -38,7 +38,7 @@ background-color: #003366;
   }
   .btn-focus {
     background-color: #ffcc00;
-    color: #ffffff;
+    color: #000000;
   }
   .time-btn-container {
     display: flex;
