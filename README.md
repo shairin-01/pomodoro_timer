@@ -1,6 +1,6 @@
 # pomodoro_timer
 
-(![screenshot.png](<images/Screenshot 2024-03-03 081727.png>))
+(/home/rinshi/pomodoro_timer-1/images/Screenshot from 2024-03-03 10-05-32.png>))
 
 ## Overview
 
