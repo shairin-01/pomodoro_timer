@@ -41,9 +41,9 @@ The Pomodoro Timer is a simple web application designed to help users boost prod
 2. Open index.html in your preferred web browser.
 
 ## Contributors
-1.Fahmi .P -https://github.com/FahmiP10
+1.Fahmi -https://github.com/FahmiP10
 
-2.Sruthimol.KS -https://github.com/Sruthymolks
+2.Sruthymol.KS -https://github.com/Sruthymolks
 
 3.Shahana Shirin-https://github.com/Shairin-01
 
