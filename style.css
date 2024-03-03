@@ -6,12 +6,7 @@
   }
   body {
     body {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      color: #3e3e3e;
-      background: url(./images/bgn.jpeg) no-repeat 0 0;
-      background-size: cover;
+background-color: #cb202d;
   }
   
   }
