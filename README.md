@@ -41,10 +41,12 @@ The Pomodoro Timer is a simple web application designed to help users boost prod
 2. Open index.html in your preferred web browser.
 
 ## Contributors
-1.Fahmi .P -("https://github.com/FahmiP10")
-2.Sruthimol.KS ("https://github.com/Sruthymolks")
-3.Shahana Shirin-("https://github.com/Shairin-01")
-4.Fathima Rinshi NM-("https://github.com/Rinshi001")
+1.Fahmi .P -https://github.com/FahmiP10
+
+2.Sruthimol.KS -https://github.com/Sruthymolks
+
+3.Shahana Shirin-https://github.com/Shairin-01
+4.Fathima Rinshi NM-https://github.com/Rinshi001
 
 Contributions are welcome! If you find any bugs, have feature requests, or want to contribute in any other way, please open an issue or submit a pull request.
 
