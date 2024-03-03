@@ -5,7 +5,15 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #cd202d;
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: #3e3e3e;
+      background: url(./images/bgn.jpeg) no-repeat 0 0;
+      background-size: cover;
+  }
+  
   }
   .container {
     background-color: #1b1b1b;
