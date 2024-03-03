@@ -1,6 +1,6 @@
 # pomodoro_timer
 
-![Pomodoro Timer](screenshot.png)
+(![screenshot.png](<images/Screenshot 2024-03-03 081727.png>))
 
 ## Overview
 

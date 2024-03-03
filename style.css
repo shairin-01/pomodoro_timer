@@ -6,12 +6,12 @@
   }
   body {
     
-background-color: #ffffff;
+background-color: #003366;
   }
   
   
   .container {
-    background-color: #1b1b1b;
+    background-color: #cccccc;
     width: min(90%, 500px);
     position: absolute;
     transform: translate(-50%, -50%);
@@ -37,7 +37,7 @@ background-color: #ffffff;
     color: #a9a7a7;
   }
   .btn-focus {
-    background-color: #cb202d;
+    background-color: #ffcc00;
     color: #ffffff;
   }
   .time-btn-container {
